@@ -598,3 +598,13 @@ color: var(--navyblue, #2E2F42);
 .modal-form-submit {
   position:absolute;
 }
+
+@media only screen and (min-width: 428px) and (max-width: 767px) 
+{.container {
+  width: 428px;
+  margin: 0 auto;}
+}
+
+@media only screen {
+  
+}
