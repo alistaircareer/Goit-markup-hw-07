@@ -599,12 +599,19 @@ color: var(--navyblue, #2E2F42);
   position:absolute;
 }
 
-@media only screen and (min-width: 428px) and (max-width: 767px) 
+@media only screen and (max-width: 428px) 
 {.container {
   width: 428px;
   margin: 0 auto;}
 }
 
-@media only screen {
-  
+@media only screen and (max-width: 768px) 
+{.container {
+  width: 428px;
+  margin: 0 auto;}
+}
+@media only screen and (max-width: 1158px) 
+{.container {
+  width: 428px;
+  margin: 0 auto;}
 }
