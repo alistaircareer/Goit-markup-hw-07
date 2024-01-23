@@ -203,7 +203,7 @@ a {
   width: 360px;
   height: 300px;}
 /* team */
-.section-team {
+.section-team section {
   background-color: var(--cloud);}
 .title-team {
   color: var(--navyblue);
